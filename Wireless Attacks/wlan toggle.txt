@@ -1,0 +1,4 @@
+Getting wlan card/wifi adapter up/down
+
+ifconfig wlan0 down -Toggles wlan card down
+ifconfig wlan0 up   -Toggles wlan card up

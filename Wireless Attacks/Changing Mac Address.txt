@@ -1,0 +1,10 @@
+Changing Mac Address
+
+
+macchanger -e - Doesn't change the manufacture bytes/Doesn't change the manufacture
+macchanger -a - Changes to random MAC of same kind/manufacture
+macchanger -A - Changes to random manufacture
+macchanger -p - Resets to default
+macchanger -r - Fully random MAC address
+macchanger -l - List of ones I can use
+macchanger -m - Specific MAC address eg; macchanger -m XX:XX:XX:XX:XX:XX
