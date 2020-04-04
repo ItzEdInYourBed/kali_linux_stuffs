@@ -1,0 +1,7 @@
+Toggling between managed & monitor using Airmon-ng
+
+
+airmon-ng start wlan0 - Starts monitor mode for wlan0 card
+airmon-ng stop wlan0mon - Stops wlan0 from monitor mode, start adds mon to the end
+
+airodump-ng wlan0mon -Lists available networks
