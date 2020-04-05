@@ -5,4 +5,6 @@ ifconfig wlan0 down - Toggled wlan card down; Remember to bring wlan card back u
 airmon-ng start wlan0 - Starts monitor mode for wlan0 card
 airmon-ng stop wlan0mon - Stops wlan0 from monitor mode, start adds mon to the end
 
+  iwconfig wlan0 - Will show current state of card to confirm mode
+
 airodump-ng wlan0mon -Lists available networks
