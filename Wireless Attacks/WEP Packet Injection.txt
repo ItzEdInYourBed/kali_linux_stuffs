@@ -1,0 +1,4 @@
+WEP Packet Injection - Getting authenticated
+
+
+aireplay-ng --fakeauth 0(Packets) -a (BSSID/ROUTER) -h (OUR MAC ADDRESS) wlan0mon - Gets us authenticated with the access point; will accept packets from us instead of ignoring
