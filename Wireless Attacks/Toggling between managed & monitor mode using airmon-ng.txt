@@ -1,5 +1,6 @@
 Toggling between managed & monitor using Airmon-ng
 
+ifconfig wlan0 down - Toggled wlan card down; Remember to bring wlan card back up
 
 airmon-ng start wlan0 - Starts monitor mode for wlan0 card
 airmon-ng stop wlan0mon - Stops wlan0 from monitor mode, start adds mon to the end
