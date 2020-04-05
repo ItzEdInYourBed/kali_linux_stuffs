@@ -1,9 +1,9 @@
 Toggling between managed & monitor mode using iwconfig
 
 
-ifconfig wlan0 down - Toggled wlan card down
+ifconfig wlan0 down - Toggled wlan card down; Remember to bring wlan card back up
 
-iwconfig wlan0 mode monitor - Toggles card into monitor mode; Remember to bring wlan card back up
+iwconfig wlan0 mode monitor - Toggles card into monitor mode
 iwconfig wlan0 mode managed - Toggles card back into managed mode
 
   iwconfig wlan0 - Will show current state of card to confirm mode
