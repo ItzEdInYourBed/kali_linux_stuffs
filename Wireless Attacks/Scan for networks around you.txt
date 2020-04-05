@@ -1,0 +1,4 @@
+Scan for networks around you
+
+
+airodump-ng wlan0 - Scans networks around you
