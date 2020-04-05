@@ -1,0 +1,4 @@
+Airodump-ng Targeted Wifi Sniffing/Attack
+
+
+airodump-ng --channel X --bssid XX:XX:XX:XX:XX:XX --write FILE_NAME wlan0mon - Captures packets from the specified router's channel & bssid, then writes all packets captured into a file that you can name, specify wlan card at end
