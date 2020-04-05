@@ -1,0 +1,4 @@
+WEP Cracking
+
+
+aircrack-ng FILE_NAME.EXT - Attempts to crack WEP wifi from file specified in airodump-ng --write; may take a while but remove the : from the key found and connect using that as password
